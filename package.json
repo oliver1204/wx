@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@vant/weapp": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Liuziran",
+  "license": "ISC",
+  "useExtendedLib": "@vant"
+}

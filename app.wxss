@@ -1,0 +1,40 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.Footer button{
+	height: 96rpx;
+	margin: 82rpx auto 0;
+	line-height: 96rpx;
+	color: #fff;
+  font-size: 36rpx;
+  background-image: linear-gradient(90deg, #4070FF 0%, #4070FF 100%);
+  box-shadow: 0 0 20px 0 rgba(64,112,255,0.44);
+  border-radius: 48rpx;
+  width: 90%;
+}
+
+.sbEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 32px 0;
+}
+
+.sbEmpty .describe {
+  font-size: 26rpx;
+  color: #909090;
+}
+

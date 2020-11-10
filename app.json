@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/workspace/clues/clues",
+    "pages/workspace/home/home",
+    "pages/chat/home/home"
+  ],
+  "usingComponents": {
+    "sb-header":"/components/cu-custom/cu-custom"
+  },
+  "window":{
+    "navigationBarBackgroundColor": "#39b54a",
+    "navigationBarTitleText": "Color UI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}
